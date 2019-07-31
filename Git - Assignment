@@ -1,0 +1,39 @@
+Assignment
+Clone the repository at https://github.com/Grinnell-CSC195/hw1.
+Ans- git clone https://github.com/Grinnell-CSC195/hw1
+
+Add a file to the participants directory that describes you.
+Ans- git add index.html
+
+Use git add to add that file to the repository.
+Ans- git add index.html
+
+Use git commit to commit your change. Use a meaningful message like "Added information about YOUR NAME HERE."
+Ans- git commit -m "add in hello world HTML"
+
+Use git push to send your change to the primary repository.
+Ans- git push
+
+Look online to see if your change has been pushed.
+Ans- Yes
+
+Wait until your partner has pushed their update. Then use git pull to get their change into your repository. Verify that you have the new file.
+Ans- Yes
+
+Use git log or git log | less to see a list of changes to the repository.
+Ans- git log
+
+Edit the file participants.md to add your name. Then add the file, commit it, and push it.
+Ans- First we open participants.md and then edit it.
+git add participants.md
+git commit -m "My name 'Vitesh' is added"
+git push
+
+Whoever tries to push the file first will likely succeed. Whoever tries to push the file second will likely get an error message. Figure out how to resolve the error message.
+Ans- Second person has to first take PULL then merge his change and then can push.
+
+In the code directory, there is a program that lists the members of this class. Update participants.c so that it prints your name, too. (Follow the pattern of the file.) Make sure that your program works by typing make and then ./participants. Then, add the file, commit it, and push it.
+Ans- 
+Deal with any conflicts that have arisen and commit the result.
+Ans- git mergetool
+git commit
