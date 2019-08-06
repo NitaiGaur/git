@@ -1,0 +1,33 @@
+interface Num {
+    fName: number;
+    Sname: number;
+ }
+ console.log("**************************************");
+    console.log("Calculator App");
+    console.log("**************************************");
+    console.log("There are following operation:");
+    //window.prompt("Please enter Number");   
+    console.log("1.Addition");
+    console.log("2.Substration");
+    console.log("3.Multiplication");
+    console.log("4.Division");
+let add = function (num: Num) { 
+    return console.log(num.fName + num.Sname);
+};
+add({fName: 27, Sname: 23});
+let sub = function (num: Num) { 
+    return console.log(num.fName - num.Sname);
+};
+sub({fName: 54, Sname: 34});
+
+let mul = function (num: Num) { 
+ return console.log(num.fName * num.Sname);
+};
+mul({fName: 4, Sname: 14});
+let div = function (num: Num) { 
+    return console.log(num.fName / num.Sname);
+};
+div({fName: 30, Sname: 5});
+
+
+
